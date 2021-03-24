@@ -1,0 +1,38 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion project.ext.compileSdkVersion
+    buildToolsVersion project.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.yunxian.android.opengl.app"
+        minSdkVersion project.ext.minSdkVersion
+        targetSdkVersion project.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation "com.yunxian.android.framework:bundleframework:${framework}"
+    implementation "com.yunxian.android.framework:annotation:${framework}"
+    annotationProcessor "com.yunxian.android.framework:compiler:${framework}"
+
+    implementation "com.yunxian.android.bundle:common-util:${foundation}"
+
+    implementation project(':chapter_01:hellotriangle')
+    implementation project(':common:utils')
+}

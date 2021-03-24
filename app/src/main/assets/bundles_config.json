@@ -1,0 +1,8 @@
+[
+  {
+    "name": "chapter_01_hellotriangle",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter01.triangle.HelloTriangleActivator",
+    "extra": {}
+  }
+]

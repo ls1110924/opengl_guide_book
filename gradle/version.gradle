@@ -1,0 +1,36 @@
+// 基础值定义
+
+ext {
+
+    // 基础属性
+    compileSdkVersion = 30
+    buildToolsVersion = "30.0.3"
+    minSdkVersion = 18
+    targetSdkVersion = 30
+
+    // Framework
+    framework = '0.2.0'
+    foundation = '0.0.1'
+
+    // UI
+    appcompat = '1.2.0'
+    material = '1.3.0'
+
+    // gradle plugin
+    gradle_plugin = '4.1.0'
+    bintray_plugin = '1.4'
+    maven_plugin = '2.1'
+
+}
+
+ExtraPropertiesExtension extension = project.extensions.extraProperties
+Properties properties = new Properties()
+File file = project.rootProject.file('local.properties')
+if (file.exists()) {
+    properties.load(file.newDataInputStream())
+    for (String key : properties.keys()) {
+        if (extension.has(key)) {
+            extension.set(key, properties.getProperty(key))
+        }
+    }
+}
