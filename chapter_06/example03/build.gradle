@@ -1,17 +1,19 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
+    id 'com.yunxian.android.gradle.plugin.bundle'
 }
 
 android {
-    compileSdkVersion project.ext.compileSdkVersion
-    buildToolsVersion project.ext.buildToolsVersion
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.yunxian.android.opengl.app"
-        minSdkVersion project.ext.minSdkVersion
-        targetSdkVersion project.ext.targetSdkVersion
+        minSdkVersion 18
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -26,16 +28,15 @@ android {
     }
 }
 
+bundle {
+    debug false
+    fileName "chapter06_example03"
+}
+
 dependencies {
     implementation "com.yunxian.android.framework:bundleframework:${framework}"
     implementation "com.yunxian.android.framework:annotation:${framework}"
     annotationProcessor "com.yunxian.android.framework:compiler:${framework}"
 
-    implementation "com.yunxian.android.bundle:common-util:${foundation}"
-
     implementation project(':common:utils')
-
-    implementation project(':chapter_01:hellotriangle')
-    implementation project(':chapter_06:example03')
-
 }

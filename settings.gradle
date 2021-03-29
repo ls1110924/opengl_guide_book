@@ -1,4 +1,5 @@
 rootProject.name = "OpenGLDemo"
 include ':app',
-        ':common:utils',
-        'chapter_01:hellotriangle'
+        'chapter_01:hellotriangle',
+        'chapter_06:example03',
+        ':common:utils'

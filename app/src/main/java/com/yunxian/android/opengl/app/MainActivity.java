@@ -14,12 +14,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.hello_triangle).setOnClickListener(this::onClick);
+        findViewById(R.id.example06_03).setOnClickListener(this::onClick);
     }
 
     public void onClick(View v) {
         final int id = v.getId();
         if (id == R.id.hello_triangle) {
             BundlePlatform.route(this, "chapter01/hellotriangle");
+        } else if (id == R.id.example06_03) {
+            BundlePlatform.route(this, "chapter06/example03");
         }
     }
 }

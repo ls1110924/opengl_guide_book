@@ -192,7 +192,10 @@ public class HelloTriangleRenderer implements GLSurfaceView.Renderer {
     private FloatBuffer mVertices;
     private static String TAG = "HelloTriangleRenderer";
 
-    private final float[] mVerticesData =
-            {0f, 0.5f, 0.0f, -0.5f, -0.5f, 0.0f, 0.5f, -0.5f, 0.0f};
+    private final float[] mVerticesData = {
+            0f, 0.5f, 0.0f,
+            -0.5f, -0.5f, 0.0f,
+            0.5f, -0.5f, 0.0f
+    };
 
 }

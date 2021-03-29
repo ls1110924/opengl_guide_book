@@ -1,8 +1,14 @@
 [
   {
-    "name": "chapter_01_hellotriangle",
+    "name": "chapter01_hellotriangle",
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter01.triangle.HelloTriangleActivator",
+    "extra": {}
+  },
+  {
+    "name": "chapter06_example03",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter06.example03.Example03Activator",
     "extra": {}
   }
 ]
