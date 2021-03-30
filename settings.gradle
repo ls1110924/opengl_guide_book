@@ -3,4 +3,5 @@ include ':app',
         'chapter_01:hellotriangle',
         'chapter_06:example03',
         'chapter_06:example06',
+        'chapter_06:vbo',
         ':common:utils'

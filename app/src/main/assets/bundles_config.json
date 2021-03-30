@@ -16,5 +16,11 @@
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter06.example06.Example06Activator",
     "extra": {}
+  },
+  {
+    "name": "chapter06_vbo",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter06.vbo.VboActivator",
+    "extra": {}
   }
 ]

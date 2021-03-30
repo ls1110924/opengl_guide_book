@@ -29,4 +29,11 @@
         android:layout_marginTop="8dp"
         android:text="Example06_06" />
 
+    <Button
+        android:id="@+id/example06_vbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Example06_vbo" />
+
 </LinearLayout>
