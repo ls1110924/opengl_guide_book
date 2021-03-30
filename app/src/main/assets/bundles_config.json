@@ -10,5 +10,11 @@
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter06.example03.Example03Activator",
     "extra": {}
+  },
+  {
+    "name": "chapter06_example06",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter06.example06.Example06Activator",
+    "extra": {}
   }
 ]
