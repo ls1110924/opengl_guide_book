@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.example06_03).setOnClickListener(this::onClick);
         findViewById(R.id.example06_06).setOnClickListener(this::onClick);
         findViewById(R.id.example06_vbo).setOnClickListener(this::onClick);
+        findViewById(R.id.example06_vao).setOnClickListener(this::onClick);
     }
 
     public void onClick(View v) {
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
             BundlePlatform.route(this, "chapter06/example06");
         } else if (id == R.id.example06_vbo) {
             BundlePlatform.route(this, "chapter06/vbo");
+        } else if (id == R.id.example06_vao) {
+            BundlePlatform.route(this, "chapter06/vao");
         }
     }
 }
