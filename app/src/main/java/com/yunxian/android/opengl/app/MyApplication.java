@@ -1,6 +1,6 @@
 package com.yunxian.android.opengl.app;
 
-import android.app.Application;
+import androidx.multidex.MultiDexApplication;
 
 import com.yunxian.android.common.util.YxConfig;
 import com.yunxian.android.common.util.YxContext;
@@ -12,7 +12,7 @@ import com.yunxian.android.framework.BundlePlatform;
  * @email ls1110924@gmail.com
  * @date 2021/3/24 21:34
  */
-public class MyApplication extends Application {
+public class MyApplication extends MultiDexApplication {
 
     public static volatile boolean sInit = false;
 

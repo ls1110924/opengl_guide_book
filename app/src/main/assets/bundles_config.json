@@ -28,5 +28,11 @@
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter06.vao.VaoActivator",
     "extra": {}
+  },
+  {
+    "name": "chapter06_example08",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter06.example08.Example08Activator",
+    "extra": {}
   }
 ]

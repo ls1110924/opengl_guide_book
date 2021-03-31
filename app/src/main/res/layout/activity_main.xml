@@ -43,4 +43,11 @@
         android:layout_marginTop="8dp"
         android:text="Example06_vao" />
 
+    <Button
+        android:id="@+id/example06_08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Example06_08" />
+
 </LinearLayout>
