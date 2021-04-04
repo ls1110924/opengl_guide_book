@@ -53,6 +53,20 @@ import com.yunxian.android.opengl.common.utils.ESShader;
 
 public class Example6_3Renderer implements GLSurfaceView.Renderer {
 
+    // Handle to a program object
+    private int mProgramObject;
+    // Additional member variables
+    private int mWidth;
+    private int mHeight;
+    private FloatBuffer mVertices;
+
+    private final float[] mVerticesData =
+            {
+                    0.0f, 0.5f, 0.0f, // v0
+                    -0.5f, -0.5f, 0.0f, // v1
+                    0.5f, -0.5f, 0.0f  // v2
+            };
+
     ///
     // Constructor
     //
@@ -130,17 +144,4 @@ public class Example6_3Renderer implements GLSurfaceView.Renderer {
     }
 
 
-    // Handle to a program object
-    private int mProgramObject;
-    // Additional member variables
-    private int mWidth;
-    private int mHeight;
-    private FloatBuffer mVertices;
-
-    private final float[] mVerticesData =
-            {
-                    0.0f, 0.5f, 0.0f, // v0
-                    -0.5f, -0.5f, 0.0f, // v1
-                    0.5f, -0.5f, 0.0f  // v2
-            };
 }
