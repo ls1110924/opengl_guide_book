@@ -7,4 +7,5 @@ include ':app',
         'chapter_06:vbo',
         'chapter_06:vao',
         'chapter_08:example01',
+        'chapter_09:example01',
         ':common:utils'
