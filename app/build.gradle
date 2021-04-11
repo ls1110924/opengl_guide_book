@@ -43,6 +43,7 @@ dependencies {
     implementation project(':chapter_06:example08')
     implementation project(':chapter_06:vbo')
     implementation project(':chapter_06:vao')
+    implementation project(':chapter_08:example01')
 
     implementation "androidx.multidex:multidex:2.0.1"
 
