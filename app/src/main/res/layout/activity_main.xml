@@ -82,6 +82,13 @@
             android:layout_marginTop="8dp"
             android:text="Example09_TextureWrap" />
 
+        <Button
+            android:id="@+id/example09_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Example09_04_CudeMap" />
+
     </LinearLayout>
 
 </ScrollView>
