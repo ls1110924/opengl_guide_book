@@ -9,4 +9,5 @@ include ':app',
         'chapter_08:example01',
         'chapter_09:example01',
         'chapter_09:example02-mipmap2d',
+        'chapter_09:texturewrap',
         ':common:utils'

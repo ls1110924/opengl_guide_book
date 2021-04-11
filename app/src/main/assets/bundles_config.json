@@ -52,5 +52,11 @@
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter09.example02.Example02Activator",
     "extra": {}
+  },
+  {
+    "name": "texturewrap_example02",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter09.texturewrap.TextureWrapActivator",
+    "extra": {}
   }
 ]

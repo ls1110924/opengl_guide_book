@@ -75,6 +75,13 @@
             android:layout_marginTop="8dp"
             android:text="Example09_01_MipMap2D" />
 
+        <Button
+            android:id="@+id/example09_texturewrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Example09_TextureWrap" />
+
     </LinearLayout>
 
 </ScrollView>
