@@ -8,4 +8,5 @@ include ':app',
         'chapter_06:vao',
         'chapter_08:example01',
         'chapter_09:example01',
+        'chapter_09:example02-mipmap2d',
         ':common:utils'
