@@ -54,15 +54,21 @@
     "extra": {}
   },
   {
-    "name": "texturewrap_example02",
+    "name": "chapter09_texturewrap",
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter09.texturewrap.TextureWrapActivator",
     "extra": {}
   },
   {
-    "name": "texturewrap_example04",
+    "name": "chapter09_example04",
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter09.example04.Example04Activator",
+    "extra": {}
+  },
+  {
+    "name": "chapter10_example01",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter10.example01.Example01Activator",
     "extra": {}
   }
 ]

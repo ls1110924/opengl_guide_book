@@ -48,6 +48,7 @@ dependencies {
     implementation project(':chapter_09:example02-mipmap2d')
     implementation project(':chapter_09:texturewrap')
     implementation project(':chapter_09:example04-cubemap')
+    implementation project(':chapter_10:example01-multitexture')
 
     implementation "androidx.multidex:multidex:2.0.1"
 
