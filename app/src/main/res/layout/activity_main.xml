@@ -95,6 +95,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Example10_01_MultiTexture" />
+
+        <Button
+            android:id="@+id/example14_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Example14_05_ParticleSystem" />
+
     </LinearLayout>
 
 </ScrollView>

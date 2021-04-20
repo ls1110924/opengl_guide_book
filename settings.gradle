@@ -12,4 +12,5 @@ include ':app',
         'chapter_09:texturewrap',
         'chapter_09:example04-cubemap',
         'chapter_10:example01-multitexture',
+        'chapter_14:example05-particle',
         ':common:utils'

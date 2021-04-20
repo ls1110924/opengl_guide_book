@@ -49,6 +49,7 @@ dependencies {
     implementation project(':chapter_09:texturewrap')
     implementation project(':chapter_09:example04-cubemap')
     implementation project(':chapter_10:example01-multitexture')
+    implementation project(':chapter_14:example05-particle')
 
     implementation "androidx.multidex:multidex:2.0.1"
 

@@ -70,5 +70,11 @@
     "version": "1.0",
     "activatorClz": "com.yunxian.android.opengl.chapter10.example01.Example01Activator",
     "extra": {}
+  },
+  {
+    "name": "chapter14_example05",
+    "version": "1.0",
+    "activatorClz": "com.yunxian.android.opengl.chapter14.example05.Example05ParticleActivator",
+    "extra": {}
   }
 ]
