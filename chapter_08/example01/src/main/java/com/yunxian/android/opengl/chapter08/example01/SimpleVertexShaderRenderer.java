@@ -59,13 +59,13 @@ public class SimpleVertexShaderRenderer implements GLSurfaceView.Renderer {
     private int mMVPLoc;
 
     // Vertex data
-    private ESShapes mCube = new ESShapes();
+    private final ESShapes mCube = new ESShapes();
 
     // Rotation angle
     private float mAngle;
 
     // MVP matrix
-    private ESTransform mMVPMatrix = new ESTransform();
+    private final ESTransform mMVPMatrix = new ESTransform();
 
     // Additional Member variables
     private int mWidth;

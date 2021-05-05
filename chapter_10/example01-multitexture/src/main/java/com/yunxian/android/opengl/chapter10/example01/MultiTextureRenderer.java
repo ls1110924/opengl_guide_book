@@ -73,9 +73,9 @@ public class MultiTextureRenderer implements GLSurfaceView.Renderer {
     // Additional member variables
     private int mWidth;
     private int mHeight;
-    private FloatBuffer mVertices;
-    private ShortBuffer mIndices;
-    private Context mContext;
+    private final FloatBuffer mVertices;
+    private final ShortBuffer mIndices;
+    private final Context mContext;
 
     private final float[] mVerticesData =
             {
@@ -112,8 +112,8 @@ public class MultiTextureRenderer implements GLSurfaceView.Renderer {
     //
     private int loadTextureFromAsset(String fileName) {
         int[] textureId = new int[1];
-        Bitmap bitmap = null;
-        InputStream is = null;
+        Bitmap bitmap;
+        InputStream is;
 
         try {
             is = mContext.getAssets().open(fileName);
